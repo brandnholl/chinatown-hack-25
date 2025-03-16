@@ -17,7 +17,6 @@ export default function Dashboard() {
       <div className="flex-1 p-4 md:p-6 lg:p-8">
         <Tabs defaultValue="overview" value={activeTab} onValueChange={setActiveTab} className="w-full">
           <div className="flex items-center justify-between mb-6">
-            <h1 className="text-2xl font-bold text-slate-900">Lowng Dashboard</h1>
             <TabsList className="grid grid-cols-4 w-full max-w-md">
               <TabsTrigger value="overview">Overview</TabsTrigger>
               <TabsTrigger value="insights">Insights</TabsTrigger>
