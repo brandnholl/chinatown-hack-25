@@ -17,7 +17,7 @@ export default function InsightsTab() {
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
           <h2 className="text-3xl font-bold text-slate-900">Insights & Trends</h2>
-          <p className="text-slate-600">Detailed analysis of your mom's EEG patterns</p>
+          <p className="text-slate-600">Detailed analysis of your mom{"'"}s EEG patterns</p>
         </div>
 
         <Select value={timeRange} onValueChange={setTimeRange}>
